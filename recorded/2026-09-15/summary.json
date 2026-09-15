@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "alu": {
+    "url": "https://github.com/Rivoryxa-Technologies/uvm-alu-testbench.git",
+    "revision": "6f885404ba5cda6ed7699cdef54abf1c6949cdaf",
+    "expected_revision": "6f885404ba5cda6ed7699cdef54abf1c6949cdaf"
+  },
+  "uvm": {
+    "url": "https://github.com/accellera-official/uvm-core.git",
+    "revision": "78c06547a2a0a29b3dc9dcafae62b75b2ff61544",
+    "expected_revision": "78c06547a2a0a29b3dc9dcafae62b75b2ff61544",
+    "release": "2020.3.1",
+    "license": "Apache-2.0"
+  },
+  "verilator_version": "Verilator 5.050 2026-07-01 rev vUNKNOWN-built20260701",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "timeout_seconds": 600,
+  "original_source_sha256": {
+    "rtl/alu.sv": "ebc184ff20fd9a7c70357f8d7404c0483954adc1633beccb92ed84d0a5db83f9",
+    "tb/alu_if.sv": "c5583f2e3b84c5a94757b0253753c0f0dbf80bc79fb60e5f9456bc0a56e41cc3",
+    "tb/alu_pkg.sv": "1cf71d9710f0db722415cf306cd76dabb1adae039db9ff28393f16b8a4e35dc4",
+    "tb/tb_top.sv": "a952ddd32485f750d1eadb812f37661bef20d696d171987435340613742a88f9"
+  },
+  "instrumented_dut_sha256": "dbe33e268f652e1f90f824bfa0af9f7afc79a89a681ab9451ae0225176cacaa1",
+  "unchanged_instrumented_source_sha256": {
+    "tb/alu_if.sv": "c5583f2e3b84c5a94757b0253753c0f0dbf80bc79fb60e5f9456bc0a56e41cc3",
+    "tb/alu_pkg.sv": "1cf71d9710f0db722415cf306cd76dabb1adae039db9ff28393f16b8a4e35dc4",
+    "tb/tb_top.sv": "a952ddd32485f750d1eadb812f37661bef20d696d171987435340613742a88f9"
+  },
+  "instrumentation_patch": "instrumentation.patch",
+  "steps": [
+    {
+      "command": [
+        "/usr/bin/git",
+        "init",
+        "-q"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.022416,
+      "log": "init.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "fetch",
+        "--depth",
+        "1",
+        "https://github.com/Rivoryxa-Technologies/uvm-alu-testbench.git",
+        "6f885404ba5cda6ed7699cdef54abf1c6949cdaf"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 1.239353,
+      "log": "fetch.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.01913,
+      "log": "checkout.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.013487,
+      "log": "revision.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "init",
+        "-q"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.019917,
+      "log": "init.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "fetch",
+        "--depth",
+        "1",
+        "https://github.com/accellera-official/uvm-core.git",
+        "78c06547a2a0a29b3dc9dcafae62b75b2ff61544"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 1.832044,
+      "log": "fetch.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "checkout",
+        "-q",
+        "--detach",
+        "FETCH_HEAD"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.073146,
+      "log": "checkout.log"
+    },
+    {
+      "command": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.014562,
+      "log": "revision.log"
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/verilator",
+        "--binary",
+        "--timing",
+        "-j",
+        "2",
+        "-Wno-fatal",
+        "--top-module",
+        "tb_top",
+        "-DUVM_NO_DPI",
+        "-I/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/uvm_pkg.sv",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/rtl/alu.sv",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_if.sv",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/tb_top.sv",
+        "--Mdir",
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/obj_dir",
+        "-o",
+        "uvm_alu_sim"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 121.354981,
+      "log": "build.log"
+    }
+  ],
+  "expected_cases": [
+    [
+      1,
+      "correct"
+    ],
+    [
+      17,
+      "correct"
+    ],
+    [
+      2026,
+      "correct"
+    ],
+    [
+      17,
+      "mismatch"
+    ]
+  ],
+  "cases": [
+    {
+      "seed": 1,
+      "variant": "correct",
+      "expected": "200 matches, zero errors",
+      "passed": true,
+      "command": [
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/obj_dir/uvm_alu_sim",
+        "+UVM_TESTNAME=alu_base_test",
+        "+UVM_NO_RELNOTES",
+        "+verilator+seed+1"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 1.111665,
+      "log": "correct-s1.log"
+    },
+    {
+      "seed": 17,
+      "variant": "correct",
+      "expected": "200 matches, zero errors",
+      "passed": true,
+      "command": [
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/obj_dir/uvm_alu_sim",
+        "+UVM_TESTNAME=alu_base_test",
+        "+UVM_NO_RELNOTES",
+        "+verilator+seed+17"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.023186,
+      "log": "correct-s17.log"
+    },
+    {
+      "seed": 2026,
+      "variant": "correct",
+      "expected": "200 matches, zero errors",
+      "passed": true,
+      "command": [
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/obj_dir/uvm_alu_sim",
+        "+UVM_TESTNAME=alu_base_test",
+        "+UVM_NO_RELNOTES",
+        "+verilator+seed+2026"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.022636,
+      "log": "correct-s2026.log"
+    },
+    {
+      "seed": 17,
+      "variant": "mismatch",
+      "expected": "scoreboard mismatch",
+      "passed": true,
+      "command": [
+        "/private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/obj_dir/uvm_alu_sim",
+        "+UVM_TESTNAME=alu_base_test",
+        "+UVM_NO_RELNOTES",
+        "+verilator+seed+17",
+        "+INJECT_MISMATCH",
+        "+SCB_MISMATCH_EXPECTED"
+      ],
+      "returncode": 0,
+      "timed_out": false,
+      "seconds": 0.024114,
+      "log": "mutant-s17.log"
+    }
+  ],
+  "runner_sha256": "fc71645b720e1998b9cd5e073f5065d1cf7ce57c49ed5e7ef787511b7f268698"
+}

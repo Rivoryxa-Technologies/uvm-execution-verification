@@ -1,0 +1,447 @@
+%Warning: System has stack size 65520 kb which may be too small; failed to request more using 'ulimit -s 173155744'
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_root.svh(476) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2020
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2:UVM:2020.3.1
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_root.svh(549) @ 0: reporter [NO_DPI_USED] We are thinking of removing support for UVM_NO_DPI.  Please try this test without it and evaluate the impact
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_root.svh(552) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test alu_base_test...
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_traversal.svh(345) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_traversal.svh(314) @ 0: reporter [NO_VISIT_CHECK] Because UVM_REGEX_NO_DPI is defined, no uvm component name constraints will be checked
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 45000: uvm_test_top.env.scb [SCB] op=4 a=19388fc9 b=945c4a77 exp=8d64c5be got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 65000: uvm_test_top.env.scb [SCB] op=2 a=895975be b=f209742b exp=8009742a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 85000: uvm_test_top.env.scb [SCB] op=0 a=85631969 b=c2951059 exp=47f829c2 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 105000: uvm_test_top.env.scb [SCB] op=2 a=5dc6b1e6 b=61d31102 exp=41c21102 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 125000: uvm_test_top.env.scb [SCB] op=5 a=51a90570 b=80306baa exp=a415c000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 145000: uvm_test_top.env.scb [SCB] op=1 a=18b15782 b=f3bf3e52 exp=24f21930 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 165000: uvm_test_top.env.scb [SCB] op=2 a=bf05c5f4 b=20dcb0f5 exp=200480f4 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 185000: uvm_test_top.env.scb [SCB] op=4 a=312e06e7 b=42e20cb exp=3500262c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 205000: uvm_test_top.env.scb [SCB] op=5 a=a85b33e8 b=f4357bbc exp=80000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 225000: uvm_test_top.env.scb [SCB] op=7 a=b8b5c7e3 b=7c8a9d63 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 245000: uvm_test_top.env.scb [SCB] op=5 a=62d8e18a b=c33d869e exp=80000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 265000: uvm_test_top.env.scb [SCB] op=5 a=c3df9281 b=78b30c3e exp=40000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 285000: uvm_test_top.env.scb [SCB] op=7 a=720c4d3b b=1a585f23 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 305000: uvm_test_top.env.scb [SCB] op=2 a=e180f015 b=bc0e86a1 exp=a0008001 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 325000: uvm_test_top.env.scb [SCB] op=6 a=a03a6e03 b=f40c4bef exp=14074 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 345000: uvm_test_top.env.scb [SCB] op=6 a=912a00da b=9211acde exp=2 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 365000: uvm_test_top.env.scb [SCB] op=7 a=441c43b0 b=fd5eb0de exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 385000: uvm_test_top.env.scb [SCB] op=1 a=599a8386 b=9a770ad7 exp=bf2378af got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 405000: uvm_test_top.env.scb [SCB] op=6 a=f9b4187b b=a7d6edb3 exp=1f36 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 425000: uvm_test_top.env.scb [SCB] op=1 a=7dd9c233 b=c3865940 exp=ba5368f3 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 445000: uvm_test_top.env.scb [SCB] op=5 a=e76ceca1 b=3b9c154a exp=b3b28400 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 465000: uvm_test_top.env.scb [SCB] op=2 a=7667c01d b=1e5c7e68 exp=16444008 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 485000: uvm_test_top.env.scb [SCB] op=6 a=a2065f5d b=cb2a0a32 exp=2881 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 505000: uvm_test_top.env.scb [SCB] op=7 a=4b835781 b=4893a328 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 525000: uvm_test_top.env.scb [SCB] op=1 a=e8db6dd1 b=21d04ab9 exp=c70b2318 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 545000: uvm_test_top.env.scb [SCB] op=1 a=245b8767 b=1db230f6 exp=6a95671 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 565000: uvm_test_top.env.scb [SCB] op=3 a=47677158 b=20cb31a6 exp=67ef71fe got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 585000: uvm_test_top.env.scb [SCB] op=7 a=5ebf919e b=1e4414cb exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 605000: uvm_test_top.env.scb [SCB] op=0 a=f29c0aad b=bc7bddbc exp=af17e869 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 625000: uvm_test_top.env.scb [SCB] op=1 a=dd76fe1 b=3819f966 exp=d5bd767b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 645000: uvm_test_top.env.scb [SCB] op=4 a=832835b4 b=b4a8fb22 exp=3780ce96 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 665000: uvm_test_top.env.scb [SCB] op=4 a=1c8ddb86 b=9e9a4e5c exp=821795da got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 685000: uvm_test_top.env.scb [SCB] op=4 a=a90f61bc b=e23e9513 exp=4b31f4af got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 705000: uvm_test_top.env.scb [SCB] op=7 a=85565a30 b=6b3a0899 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 725000: uvm_test_top.env.scb [SCB] op=5 a=3f70d8e3 b=247000ac exp=d8e3000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 745000: uvm_test_top.env.scb [SCB] op=5 a=82cd16a b=5a162c9e exp=80000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 765000: uvm_test_top.env.scb [SCB] op=6 a=ff63520b b=a90d38f7 exp=1fe got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 785000: uvm_test_top.env.scb [SCB] op=2 a=e0f3a776 b=dd8bf777 exp=c083a776 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 805000: uvm_test_top.env.scb [SCB] op=4 a=c8e5b645 b=69bd2a5e exp=a1589c1b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 825000: uvm_test_top.env.scb [SCB] op=5 a=a6022939 b=129c057d exp=20000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 845000: uvm_test_top.env.scb [SCB] op=4 a=772f93ba b=3450d6e4 exp=437f455e got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 865000: uvm_test_top.env.scb [SCB] op=7 a=c5985686 b=d31bb6a8 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 885000: uvm_test_top.env.scb [SCB] op=5 a=fd0fd0b5 b=8c4de4c2 exp=f43f42d4 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 905000: uvm_test_top.env.scb [SCB] op=2 a=bfbe5931 b=b54d9fd1 exp=b50c1911 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 925000: uvm_test_top.env.scb [SCB] op=1 a=9eec98d5 b=1e684c4a exp=80844c8b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 945000: uvm_test_top.env.scb [SCB] op=6 a=259b9d70 b=606b4b7 exp=4b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 965000: uvm_test_top.env.scb [SCB] op=7 a=aa3f8a95 b=c96ad217 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 985000: uvm_test_top.env.scb [SCB] op=4 a=6fa0d01a b=61938845 exp=e33585f got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1005000: uvm_test_top.env.scb [SCB] op=5 a=1c46390 b=ec59655d exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1025000: uvm_test_top.env.scb [SCB] op=6 a=2f024527 b=842eaddd exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1045000: uvm_test_top.env.scb [SCB] op=0 a=3341cedb b=c5fc082d exp=f93dd708 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1065000: uvm_test_top.env.scb [SCB] op=7 a=61cba22d b=a04bffe9 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1085000: uvm_test_top.env.scb [SCB] op=4 a=43dec2e1 b=e0b46949 exp=a36aaba8 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1105000: uvm_test_top.env.scb [SCB] op=3 a=eeb8bebb b=bf8c013e exp=ffbcbfbf got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1125000: uvm_test_top.env.scb [SCB] op=1 a=f5dea4bf b=5fd4cff6 exp=9609d4c9 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1145000: uvm_test_top.env.scb [SCB] op=5 a=35cbed29 b=dad2343d exp=20000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1165000: uvm_test_top.env.scb [SCB] op=0 a=8608d404 b=ba58fb59 exp=4061cf5d got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1185000: uvm_test_top.env.scb [SCB] op=7 a=64670409 b=63c98eed exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1205000: uvm_test_top.env.scb [SCB] op=0 a=c63d9fc3 b=380f1dce exp=fe4cbd91 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1225000: uvm_test_top.env.scb [SCB] op=1 a=bb803b4b b=e09f049f exp=dae136ac got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1245000: uvm_test_top.env.scb [SCB] op=4 a=2c21b3b6 b=63b214ee exp=4f93a758 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1265000: uvm_test_top.env.scb [SCB] op=6 a=5a44bbe9 b=c15f83d1 exp=2d22 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1285000: uvm_test_top.env.scb [SCB] op=0 a=352a0139 b=b8de505f exp=ee085198 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1305000: uvm_test_top.env.scb [SCB] op=1 a=c1a853b2 b=8e927370 exp=3315e042 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1325000: uvm_test_top.env.scb [SCB] op=7 a=6a018240 b=511a6be7 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1345000: uvm_test_top.env.scb [SCB] op=7 a=29a74eaa b=7bc49639 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1365000: uvm_test_top.env.scb [SCB] op=2 a=84c82e28 b=80744e58 exp=80400e08 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1385000: uvm_test_top.env.scb [SCB] op=4 a=3b6d3bc b=406b8fb0 exp=43dd5c0c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1405000: uvm_test_top.env.scb [SCB] op=6 a=d6f05692 b=8f3d3a79 exp=6b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1425000: uvm_test_top.env.scb [SCB] op=6 a=c557e173 b=b227dc5f exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1445000: uvm_test_top.env.scb [SCB] op=0 a=b52f35ef b=45f57e6a exp=fb24b459 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1465000: uvm_test_top.env.scb [SCB] op=2 a=31cb7634 b=532728 exp=432620 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1485000: uvm_test_top.env.scb [SCB] op=4 a=73d6defa b=b8240956 exp=cbf2d7ac got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1505000: uvm_test_top.env.scb [SCB] op=6 a=c880bb86 b=4cdaff3c exp=c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1525000: uvm_test_top.env.scb [SCB] op=5 a=5fec468c b=c689adf3 exp=34600000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1545000: uvm_test_top.env.scb [SCB] op=3 a=bd77c3e3 b=b72f56c8 exp=bf7fd7eb got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1565000: uvm_test_top.env.scb [SCB] op=6 a=7c19e585 b=c3cc69f3 exp=f83 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1585000: uvm_test_top.env.scb [SCB] op=1 a=6956a9c7 b=8a4534ab exp=df11751c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1605000: uvm_test_top.env.scb [SCB] op=4 a=19b69d2c b=2732c61f exp=3e845b33 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1625000: uvm_test_top.env.scb [SCB] op=5 a=c9ca1daa b=b0d08097 exp=d5000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1645000: uvm_test_top.env.scb [SCB] op=1 a=b97e1354 b=f97b32fd exp=c002e057 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1665000: uvm_test_top.env.scb [SCB] op=1 a=eed3d8d1 b=a9634ab7 exp=45708e1a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1685000: uvm_test_top.env.scb [SCB] op=3 a=ccb8b123 b=1617590 exp=cdf9f5b3 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1705000: uvm_test_top.env.scb [SCB] op=2 a=b8ca562b b=1b781d59 exp=18481409 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1725000: uvm_test_top.env.scb [SCB] op=3 a=6527b335 b=64629d62 exp=6567bf77 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1745000: uvm_test_top.env.scb [SCB] op=7 a=cf885a5f b=c68da769 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1765000: uvm_test_top.env.scb [SCB] op=2 a=fda097be b=4da877cd exp=4da0178c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1785000: uvm_test_top.env.scb [SCB] op=2 a=266e4364 b=4d7eee76 exp=46e4264 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1805000: uvm_test_top.env.scb [SCB] op=0 a=910a6ace b=77d480fd exp=8deebcb got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1825000: uvm_test_top.env.scb [SCB] op=6 a=bec7f8d8 b=a028065a exp=2f got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1845000: uvm_test_top.env.scb [SCB] op=5 a=9dad58d0 b=462f1e3c exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1865000: uvm_test_top.env.scb [SCB] op=7 a=77cc8398 b=6c45a298 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1885000: uvm_test_top.env.scb [SCB] op=0 a=66ce4527 b=27d1d373 exp=8ea0189a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1905000: uvm_test_top.env.scb [SCB] op=7 a=f1f9b0a5 b=c4ddb8eb exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1925000: uvm_test_top.env.scb [SCB] op=0 a=ed681ea6 b=4957d77e exp=36bff624 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1945000: uvm_test_top.env.scb [SCB] op=0 a=aeb80925 b=9f39a572 exp=4df1ae97 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1965000: uvm_test_top.env.scb [SCB] op=6 a=505007e1 b=42053bda exp=14 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 1985000: uvm_test_top.env.scb [SCB] op=4 a=e8ec79fa b=7a01e274 exp=92ed9b8e got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2005000: uvm_test_top.env.scb [SCB] op=4 a=27cbf5e b=462d267d exp=44519923 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2025000: uvm_test_top.env.scb [SCB] op=7 a=954e2274 b=68e0a54b exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2045000: uvm_test_top.env.scb [SCB] op=1 a=7201f897 b=5d5a5f51 exp=14a79946 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2065000: uvm_test_top.env.scb [SCB] op=7 a=c3af9b84 b=65d7f5db exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2085000: uvm_test_top.env.scb [SCB] op=6 a=232d398a b=48d8d28 exp=232d39 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2105000: uvm_test_top.env.scb [SCB] op=5 a=f264c872 b=1fecf19e exp=80000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2125000: uvm_test_top.env.scb [SCB] op=5 a=c84a02af b=dece027b exp=78000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2145000: uvm_test_top.env.scb [SCB] op=0 a=c4d1d375 b=77574bfd exp=3c291f72 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2165000: uvm_test_top.env.scb [SCB] op=7 a=26a24b6f b=4987056c exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2185000: uvm_test_top.env.scb [SCB] op=7 a=846e7f0c b=a0c1bc2f exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2205000: uvm_test_top.env.scb [SCB] op=3 a=1a7a0fe0 b=2d1f25b9 exp=3f7f2ff9 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2225000: uvm_test_top.env.scb [SCB] op=5 a=f33d789d b=7d359b89 exp=7af13a00 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2245000: uvm_test_top.env.scb [SCB] op=2 a=e094f328 b=2de32f70 exp=20802320 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2265000: uvm_test_top.env.scb [SCB] op=1 a=bcca0f5f b=3a1e71c3 exp=82ab9d9c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2285000: uvm_test_top.env.scb [SCB] op=1 a=817ed116 b=da288ac0 exp=a7564656 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2305000: uvm_test_top.env.scb [SCB] op=1 a=22477b44 b=d6be4a8a exp=4b8930ba got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2325000: uvm_test_top.env.scb [SCB] op=1 a=73e8864 b=41716c48 exp=c5cd1c1c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2345000: uvm_test_top.env.scb [SCB] op=5 a=e0ce10b b=d36fe7d exp=60000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2365000: uvm_test_top.env.scb [SCB] op=2 a=97813635 b=1ec33933 exp=16813031 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2385000: uvm_test_top.env.scb [SCB] op=3 a=b1d2d4f1 b=1377bd34 exp=b3f7fdf5 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2405000: uvm_test_top.env.scb [SCB] op=6 a=5f344ef1 b=c1408313 exp=be6 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2425000: uvm_test_top.env.scb [SCB] op=6 a=f9676155 b=6235adca exp=3e59d8 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2445000: uvm_test_top.env.scb [SCB] op=0 a=e8587c8a b=60dab072 exp=49332cfc got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2465000: uvm_test_top.env.scb [SCB] op=2 a=d61ad7dc b=77303d5e exp=5610155c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2485000: uvm_test_top.env.scb [SCB] op=6 a=3fc4c52b b=a3f9b4c7 exp=7f898a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2505000: uvm_test_top.env.scb [SCB] op=1 a=e0522bfd b=79d6e7e8 exp=667b4415 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2525000: uvm_test_top.env.scb [SCB] op=3 a=67cd97c0 b=bf3562e5 exp=fffdf7e5 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2545000: uvm_test_top.env.scb [SCB] op=2 a=1229d19 b=76de9296 exp=29010 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2565000: uvm_test_top.env.scb [SCB] op=1 a=13e7cafa b=a0b6de86 exp=7330ec74 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2585000: uvm_test_top.env.scb [SCB] op=0 a=fa701094 b=b180494b exp=abf059df got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2605000: uvm_test_top.env.scb [SCB] op=0 a=af91a858 b=28894b85 exp=d81af3dd got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2625000: uvm_test_top.env.scb [SCB] op=2 a=671b6753 b=c979b8ff exp=41192053 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2645000: uvm_test_top.env.scb [SCB] op=5 a=c52fe0cf b=283e557a exp=3c000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2665000: uvm_test_top.env.scb [SCB] op=5 a=a2a7ef6e b=15a1edc8 exp=a7ef6e00 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2685000: uvm_test_top.env.scb [SCB] op=0 a=c6c6cb88 b=3e59d406 exp=5209f8e got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2705000: uvm_test_top.env.scb [SCB] op=1 a=1507afa5 b=30109981 exp=e4f71624 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2725000: uvm_test_top.env.scb [SCB] op=2 a=390025dd b=e59c7a8 exp=8000588 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2745000: uvm_test_top.env.scb [SCB] op=2 a=ad7ec795 b=71645008 exp=21644000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2765000: uvm_test_top.env.scb [SCB] op=4 a=44b03406 b=62899795 exp=2639a393 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2785000: uvm_test_top.env.scb [SCB] op=6 a=267afe53 b=556d8e7a exp=9 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2805000: uvm_test_top.env.scb [SCB] op=7 a=ec5fcc84 b=610e87b0 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2825000: uvm_test_top.env.scb [SCB] op=4 a=64a0a639 b=2fa24d8d exp=4b02ebb4 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2845000: uvm_test_top.env.scb [SCB] op=6 a=5c63ee0c b=cd0b5f8a exp=1718fb got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2865000: uvm_test_top.env.scb [SCB] op=1 a=9e7b3c2a b=78abad70 exp=25cf8eba got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2885000: uvm_test_top.env.scb [SCB] op=6 a=206ec380 b=28276905 exp=103761c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2905000: uvm_test_top.env.scb [SCB] op=7 a=2da05d80 b=41471eb0 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2925000: uvm_test_top.env.scb [SCB] op=3 a=e5cae29 b=77cc9589 exp=7fdcbfa9 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2945000: uvm_test_top.env.scb [SCB] op=4 a=630640b3 b=4ce9032c exp=2fef439f got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2965000: uvm_test_top.env.scb [SCB] op=6 a=a15ea00b b=194f2a63 exp=142bd401 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 2985000: uvm_test_top.env.scb [SCB] op=3 a=6201f9a b=6ecb0d01 exp=6eeb1f9b got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3005000: uvm_test_top.env.scb [SCB] op=5 a=53c4d00c b=187f5a58 exp=c000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3025000: uvm_test_top.env.scb [SCB] op=6 a=b70a0122 b=aeadad0e exp=2dc28 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3045000: uvm_test_top.env.scb [SCB] op=7 a=2617fddd b=bba5f840 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3065000: uvm_test_top.env.scb [SCB] op=0 a=1a07a3d3 b=b2878187 exp=cc8f255a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3085000: uvm_test_top.env.scb [SCB] op=2 a=bdb78ef7 b=30c83b21 exp=30800a21 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3105000: uvm_test_top.env.scb [SCB] op=0 a=89b802c5 b=a0819704 exp=2a3999c9 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3125000: uvm_test_top.env.scb [SCB] op=6 a=1bb044c9 b=ffd09e9b exp=3 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3145000: uvm_test_top.env.scb [SCB] op=2 a=604a092d b=b1bcec64 exp=20080824 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3165000: uvm_test_top.env.scb [SCB] op=3 a=373e14d4 b=7c6d2fa7 exp=7f7f3ff7 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3185000: uvm_test_top.env.scb [SCB] op=6 a=e1811525 b=c6102ab7 exp=1c3 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3205000: uvm_test_top.env.scb [SCB] op=2 a=676bc5db b=53eea492 exp=436a8492 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3225000: uvm_test_top.env.scb [SCB] op=2 a=51afc5d3 b=1c317508 exp=10214500 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3245000: uvm_test_top.env.scb [SCB] op=5 a=25ef003 b=86508c88 exp=5ef00300 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3265000: uvm_test_top.env.scb [SCB] op=3 a=7f6969a3 b=be4121e3 exp=ff6969e3 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3285000: uvm_test_top.env.scb [SCB] op=5 a=77f46def b=3ba7ec2d exp=8dbde000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3305000: uvm_test_top.env.scb [SCB] op=2 a=842005ce b=f14faa69 exp=80000048 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3325000: uvm_test_top.env.scb [SCB] op=3 a=d42bd215 b=dedc7639 exp=defff63d got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3345000: uvm_test_top.env.scb [SCB] op=1 a=f3cd02c6 b=d38b38c exp=e6944f3a got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3365000: uvm_test_top.env.scb [SCB] op=4 a=52c1e8ef b=1108b7bf exp=43c95f50 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3385000: uvm_test_top.env.scb [SCB] op=2 a=fa91a549 b=485dc0aa exp=48118008 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3405000: uvm_test_top.env.scb [SCB] op=3 a=281ad9d7 b=b75718b5 exp=bf5fd9f7 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3425000: uvm_test_top.env.scb [SCB] op=1 a=79775c50 b=7e20e2bc exp=fb567994 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3445000: uvm_test_top.env.scb [SCB] op=1 a=ae98817a b=f37b28a3 exp=bb1d58d7 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3465000: uvm_test_top.env.scb [SCB] op=7 a=b289bdb2 b=166d8855 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3485000: uvm_test_top.env.scb [SCB] op=7 a=509f43ee b=7a82ed2 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3505000: uvm_test_top.env.scb [SCB] op=0 a=de2ddfb3 b=31e17714 exp=100f56c7 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3525000: uvm_test_top.env.scb [SCB] op=1 a=e050cbe1 b=9c90e9de exp=43bfe203 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3545000: uvm_test_top.env.scb [SCB] op=5 a=1f3c91e0 b=55c0eccc exp=c91e0000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3565000: uvm_test_top.env.scb [SCB] op=4 a=eefdfcab b=7117531a exp=9feaafb1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3585000: uvm_test_top.env.scb [SCB] op=3 a=fc6119bf b=10cd2f0c exp=fced3fbf got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3605000: uvm_test_top.env.scb [SCB] op=5 a=649152a3 b=435c8b22 exp=92454a8c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3625000: uvm_test_top.env.scb [SCB] op=7 a=b7cca400 b=91c35355 exp=0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3645000: uvm_test_top.env.scb [SCB] op=1 a=de63bd80 b=ec318d5d exp=f2323023 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3665000: uvm_test_top.env.scb [SCB] op=4 a=cb851bd1 b=72e1686c exp=b96473bd got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3685000: uvm_test_top.env.scb [SCB] op=3 a=2d58c30d b=57ff27f5 exp=7fffe7fd got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3705000: uvm_test_top.env.scb [SCB] op=1 a=49788785 b=cd4a2d5e exp=7c2e5a27 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3725000: uvm_test_top.env.scb [SCB] op=4 a=5ba36785 b=de3caec1 exp=859fc944 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3745000: uvm_test_top.env.scb [SCB] op=2 a=5341818d b=95a7764 exp=1400104 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3765000: uvm_test_top.env.scb [SCB] op=0 a=32dbfdba b=f33bca38 exp=2617c7f2 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3785000: uvm_test_top.env.scb [SCB] op=6 a=6691b4db b=af7a2369 exp=3348da got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3805000: uvm_test_top.env.scb [SCB] op=7 a=8d01890f b=a797cd62 exp=1 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3825000: uvm_test_top.env.scb [SCB] op=4 a=84ded56a b=f585f48c exp=715b21e6 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3845000: uvm_test_top.env.scb [SCB] op=5 a=28383ac0 b=2694e637 exp=60000000 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3865000: uvm_test_top.env.scb [SCB] op=1 a=e0acb5b7 b=ca55bbdd exp=1656f9da got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3885000: uvm_test_top.env.scb [SCB] op=0 a=be3f819e b=6da84ee5 exp=2be7d083 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3905000: uvm_test_top.env.scb [SCB] op=2 a=aca9a1f b=e4d92915 exp=c80815 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3925000: uvm_test_top.env.scb [SCB] op=4 a=e354915a b=62cc2996 exp=8198b8cc got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3945000: uvm_test_top.env.scb [SCB] op=4 a=b89d68bb b=3458e05b exp=8cc588e0 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3965000: uvm_test_top.env.scb [SCB] op=2 a=3b1e626c b=23acbf8e exp=230c220c got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 3985000: uvm_test_top.env.scb [SCB] op=2 a=9ec3b1e9 b=3fbc8e3b exp=1e808029 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 4005000: uvm_test_top.env.scb [SCB] op=2 a=89064951 b=6883369 exp=141 got=ffffffff
+SCB_MISMATCH_EXPECTED
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(175) @ 4025000: uvm_test_top.env.scb [SCB] op=6 a=2d9b1314 b=bb5fa26e exp=b66c got=ffffffff
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(208) @ 4115000: uvm_test_top.env.cov [COV] opcode coverage = 0.0%
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(181) @ 4115000: uvm_test_top.env.scb [SCB] matched=0 mismatched=200
+UVM_ERROR /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/alu/tb/alu_pkg.sv(183) @ 4115000: uvm_test_top.env.scb [SCB] there were mismatches
+UVM_INFO /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_report_server.svh(1009) @ 4115000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    2
+UVM_ERROR :  201
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[NO_DPI_TSTNAME]     1
+[NO_DPI_USED]     1
+[NO_VISIT_CHECK]     1
+[RNTST]     1
+[SCB]   202
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /private/tmp/rivoryxa-uvm-execution-review/artifacts/20260915T061701.177965Z-6300fdf4/work/uvm/src/base/uvm_root.svh:633: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.050 2026-07-01
+- Verilator: $finish at 4us; walltime 0.013 s; speed 311.766 us/s
+- Verilator: cpu 0.013 s on 1 threads; allocated 13 MB

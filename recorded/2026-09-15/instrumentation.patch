@@ -1,0 +1,13 @@
+--- upstream/rtl/alu.sv
++++ instrumented/rtl/alu.sv
+@@ -29,6 +29,10 @@
+       result    <= '0;
+     end else begin
+       out_valid <= in_valid;
++      if ($test$plusargs("INJECT_MISMATCH") && in_valid) begin
++        $display("SCB_MISMATCH_EXPECTED");
++        result <= '1;
++      end else
+       unique case (op)
+         OP_ADD: result <= a + b;
+         OP_SUB: result <= a - b;
