@@ -4,6 +4,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   uvm:
     runs-on: ubuntu-latest
@@ -16,6 +19,7 @@ jobs:
         run: |
           git clone --depth 1 --branch v5.050 https://github.com/verilator/verilator.git /tmp/verilator-5.050
           cd /tmp/verilator-5.050
+          test "$(git rev-parse HEAD)" = "0a24d49771fa57c36ff667272bf7b5c6705e4df0"
           autoconf
           ./configure
           make -j2

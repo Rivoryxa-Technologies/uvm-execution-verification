@@ -32,6 +32,8 @@ Install Git, Python 3, a C++ compiler, make, and a recent Verilator 5 release.
 The recorded local run used Verilator 5.050. Then run:
 
 ```sh
+git clone https://github.com/Rivoryxa-Technologies/uvm-execution-verification
+cd uvm-execution-verification
 make test
 ```
 

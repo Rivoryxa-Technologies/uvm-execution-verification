@@ -28,7 +28,7 @@ def classify(output, rc, timed, mutant):
     counts=re.findall(r"UVM_(INFO|WARNING|ERROR|FATAL)\s*:\s*(\d+)",output)
     severity={k:int(v) for k,v in counts} if len(counts)==4 else {}
     scoreboard=re.findall(r"\[SCB\] matched=(\d+) mismatched=(\d+)",output)
-    if len(scoreboard)!=1 or len(counts)!=4 or timed: return False
+    if len(scoreboard)!=1 or len(counts)!=4 or set(severity)!={"INFO","WARNING","ERROR","FATAL"} or timed: return False
     matched,mismatched=map(int,scoreboard[0])
     if mutant:
         return (rc==0 and matched+mismatched==200 and mismatched>0 and
