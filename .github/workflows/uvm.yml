@@ -19,7 +19,7 @@ jobs:
         run: |
           git clone --depth 1 --branch v5.050 https://github.com/verilator/verilator.git /tmp/verilator-5.050
           cd /tmp/verilator-5.050
-          test "$(git rev-parse HEAD)" = "0a24d49771fa57c36ff667272bf7b5c6705e4df0"
+          test "$(git rev-parse HEAD)" = "848d926ebd4addacacd294dc84e35d9d4ae8078c"
           autoconf
           ./configure
           make -j2
