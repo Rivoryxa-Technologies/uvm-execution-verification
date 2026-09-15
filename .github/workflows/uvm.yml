@@ -1,0 +1,32 @@
+name: executed UVM evidence
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  uvm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Verilator build dependencies
+        run: sudo apt-get update && sudo apt-get install -y autoconf bison build-essential flex help2man
+      - name: Build tested Verilator 5.050
+        run: |
+          git clone --depth 1 --branch v5.050 https://github.com/verilator/verilator.git /tmp/verilator-5.050
+          cd /tmp/verilator-5.050
+          autoconf
+          ./configure
+          make -j2
+          sudo make install
+          verilator --version
+      - name: Run UVM regression
+        run: make test
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: uvm-execution-evidence
+          path: artifacts/
+          if-no-files-found: warn
