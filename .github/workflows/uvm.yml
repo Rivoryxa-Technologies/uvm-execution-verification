@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Verilator build dependencies
-        run: sudo apt-get update && sudo apt-get install -y autoconf bison build-essential flex help2man
+        run: sudo apt-get update && sudo apt-get install -y autoconf bison build-essential flex libfl-dev help2man
       - name: Build tested Verilator 5.050
         run: |
           git clone --depth 1 --branch v5.050 https://github.com/verilator/verilator.git /tmp/verilator-5.050
@@ -22,9 +22,10 @@ jobs:
           test "$(git rev-parse HEAD)" = "848d926ebd4addacacd294dc84e35d9d4ae8078c"
           autoconf
           ./configure
-          make -j2
-          sudo make install
-          verilator --version
+          make -C src -j2 opt
+          echo "VERILATOR_ROOT=/tmp/verilator-5.050" >> "$GITHUB_ENV"
+          echo "/tmp/verilator-5.050/bin" >> "$GITHUB_PATH"
+          VERILATOR_ROOT=/tmp/verilator-5.050 /tmp/verilator-5.050/bin/verilator --version
       - name: Run UVM regression
         run: make test
       - name: Upload evidence
